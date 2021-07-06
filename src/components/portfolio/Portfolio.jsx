@@ -48,10 +48,24 @@ export default function Portfolio() {
       <div className="container">
         <div className="item">
           <img
-            src="https://www.thedroidsonroids.com/wp-content/uploads/2020/04/3-1200x640.png.webp"
+            src="assets/Full_Stack.png"
             alt=""
           />
-          <h3>Future Project</h3>
+          <h3>Meditation App</h3>
+        </div>
+        <div className="item">
+          <img
+            src="assets/note_taker.png"
+            alt=""
+          />
+          <h3>Note Taker App</h3>
+        </div>
+        <div className="item">
+          <img
+            src="assets/coming_soon.png"
+            alt=""
+          />
+          <h3>Mobile App</h3>
         </div>
       </div>
     </div>

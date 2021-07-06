@@ -38,11 +38,24 @@
         justify-content: center;
         flex-wrap: wrap;
 
-        // .item{
-        //     width: 220px;
-        //     height: 150px;
-        //     border-radius: 20px;
-        //     border: 1px solid rgb(228, 222, 222)
-        // }
+        .item{
+            width: 220px;
+            height: 150px;
+            border-radius: 20px;
+            border: 1px solid rgba(16, 15, 15, 0.529);
+            margin: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            position: relative;
+
+            h3{
+                position: absolute;
+                font-size: 20px;
+
+            }
+        
+        }
     }
 }
